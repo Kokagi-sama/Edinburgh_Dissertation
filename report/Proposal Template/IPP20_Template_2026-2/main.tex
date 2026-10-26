@@ -1,0 +1,210 @@
+%==========================================================
+%   Modern Informatics Research Review LaTeX Template
+%==========================================================
+
+\documentclass[a4paper,11pt]{article}
+
+%-------------------- Packages ----------------------------
+\usepackage[utf8]{inputenc}        % UTF-8 encoding
+\usepackage[T1]{fontenc}           % Font encoding
+\usepackage{lmodern}               % Clean, scalable fonts
+\usepackage[pdftex]{graphicx}      % Graphics support
+\usepackage{url}                    % Better URL handling
+\usepackage{datetime}               % Custom date formatting
+\usepackage{pgfgantt}               % Gantt charts
+\usepackage{xcolor}                 % Color definitions
+\usepackage{geometry}               % Page margins
+\usepackage{fancyhdr}               % Headers and footers
+\usepackage{titlesec}               % Custom section titles
+\usepackage{booktabs}               % Cleaner tables
+
+%-------------------- Page Setup --------------------------
+\geometry{a4paper, left=25mm, right=25mm, top=25mm, bottom=25mm}
+\parindent=0pt                      % No paragraph indentation
+\parskip=6pt                        % Space between paragraphs
+\Urlmuskip=0mu plus 1mu             % Better URL line breaks
+
+%-------------------- Colors -----------------------------
+\definecolor{mainblue}{RGB}{51,102,204}
+\definecolor{accentblue}{RGB}{153,204,254}
+
+%-------------------- Date Format -------------------------
+\newdateformat{monthyeardate}{\monthname[\THEMONTH] \THEYEAR}
+
+%-------------------- Header & Footer --------------------
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{Informatics Project Proposal 20}}
+\rhead{\thepage}
+\lfoot{\small School of Informatics}
+\rfoot{\monthyeardate\today}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{0.5pt}
+
+%-------------------- Section Styles ----------------------
+\titleformat{\section}{\Large\bfseries\color{mainblue}}{\thesection.}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{mainblue}}{\thesubsection.}{1em}{}
+
+%-------------------- Title Page Info ---------------------
+\newcommand{\examnumber}{123456789}
+\newcommand{\field}{Your Project Title}
+\newcommand{\tutor}{Your IPP20 Tutor}
+\newcommand{\supervisor}{Your Project Supervisor}
+
+%==========================================================
+\begin{document}
+
+%-------------------- Title Page --------------------------
+\begin{titlepage}
+\begin{center}
+\vspace*{2cm}
+\includegraphics[width=40mm]{crest.png}\\[1cm]
+
+{\Huge\bf School of Informatics}\\[1.5cm]
+
+{\LARGE\bf Informatics Project Proposal}\\[0.5cm]
+{\Large\bf \field}\\[2cm]
+
+{\large \textbf{UID:} \examnumber}\\[0.5cm]
+{\large \textbf{Date:} \monthyeardate\today}\\[2cm]
+
+{\large \textbf{Tutor:} \tutor\\[0.2cm]
+\textbf{Supervisor:} \supervisor}
+\vfill
+\end{center}
+% Please delete as appropriate for you (give or do not give)
+\textit{I give /do not give permission for future Informatics Project Proposal classes to read an anonymous version of this document.}
+
+\textit{This page does not count towards the page limit.}
+\end{titlepage}
+
+%-------------------- Abstract & Declaration ----------------------------
+\begin{titlepage}
+\begin{abstract}
+Provide a concise overview of your project proposal, 
+ideally no more than 100 words. Focus on objectives, methodology, and expected outcomes.
+\end{abstract}
+
+\section*{Declaration of Own Work}
+
+I hereby declare that the work presented in this document is my own and ...
+Use of GenAI should be fully acknowledged.
+\vfill
+\noindent\textit{This page does not count towards the page limit.}
+\end{titlepage}
+%==========================================================
+\section{Introduction}
+
+
+
+%-------------------- State of the Art --------------------------
+\section{State of the Art}
+Demonstrate understanding of previous work and relevant literature \cite{template}.
+
+
+\section{Implementation}
+
+\subsection{Methodology or Approach}
+% Describe your methodology or approach here
+% Example:
+This section outlines the methods and techniques that will be used to achieve
+the project objectives. Include step-by-step approach, tools, frameworks, or
+experimental setup.
+
+\subsection{Expected Outcomes}
+% Describe expected results here
+The anticipated results of the project include tangible deliverables, performance
+metrics, or scientific contributions.
+
+\subsection{Evaluation Criteria}
+% Describe how success will be measured
+Evaluation will be based on predefined criteria such as accuracy, efficiency, user satisfaction, or compliance with project requirements.
+
+
+\subsection{Risk Assessment and Mitigations}
+% Include potential risks and strategies to mitigate them
+Identify possible technical, organizational, or resource risks and outline mitigation
+strategies to minimize their impact.
+
+\subsection{Responsible Research Including Ethics}
+% Discuss ethical considerations, data privacy, sustainability, etc.
+Ensure all research practices comply with ethical standards, including data privacy,
+informed consent, environmental sustainability, and social responsibility.
+
+\section{Research Plan, Milestones, and Deliverables}
+\textit{This section does not count towards the page limit.}
+\begin{figure}[htbp]
+\centering
+\begin{ganttchart}[
+    y unit title=0.4cm,
+    y unit chart=0.5cm,
+    vgrid,hgrid,
+    x unit=1.55mm,
+    time slot format=isodate,
+    title/.append style={draw=none, fill=accentblue},
+    title label font=\sffamily\bfseries\color{white},
+    bar/.append style={draw=none, fill=mainblue},
+    bar height=.6,
+    bar label font=\normalsize\color{black!50},
+    bar incomplete/.append style={fill=green}
+]{2018-06-01}{2018-08-16}
+   \gantttitlecalendar{month=name}\\
+   \ganttbar[progress=100]{Background Reading}{2018-06-01}{2018-06-14} \\
+   \ganttgroup{Work Package 1}{2018-06-14}{2018-06-30} \\
+   \ganttbar[progress=4]{Task A}{2018-06-14}{2018-06-21} \\
+   \ganttlinkedbar{Task B}{2018-06-21}{2018-06-30} \\
+   \ganttgroup{Work Package 2}{2018-07-01}{2018-07-14} \\
+   \ganttbar[progress=15]{Task A}{2018-07-01}{2018-07-07} \\
+   \ganttlinkedbar{Task B}{2018-07-07}{2018-07-14} \\
+   \ganttgroup{Dissertation}{2018-07-14}{2018-08-16} \\
+   \ganttbar{Task A}{2018-07-14}{2018-08-16}
+\end{ganttchart}
+\caption{Gantt Chart of project activities.}
+\label{fig:gantt}
+\end{figure}
+
+%-------------------- Milestones -------------------------
+\begin{table}[htbp]
+\centering
+\begin{tabular}{@{}ccc@{}}
+\toprule
+\textbf{Milestone} & \textbf{Week} & \textbf{Description} \\
+\midrule
+$M_1$ & 2  & Feasibility study completed \\
+$M_2$ & 5  & First prototype implementation completed \\
+$M_3$ & 7  & Evaluation completed \\
+$M_4$ & 10 & Submission of dissertation \\
+\bottomrule
+\end{tabular}
+\caption{Project milestones.}
+\label{fig:milestones}
+\end{table}
+
+%-------------------- Deliverables -----------------------
+\begin{table}[htbp]
+\centering
+\begin{tabular}{@{}ccc@{}}
+\toprule
+\textbf{Deliverable} & \textbf{Week} & \textbf{Description} \\
+\midrule
+$D_1$ & 6  & Software tool \\
+$D_2$ & 8  & Evaluation report \\
+$D_3$ & 10 & Dissertation \\
+\bottomrule
+\end{tabular}
+\caption{Project deliverables.}
+\label{fig:deliverables}
+\end{table}
+
+%-------------------- References -------------------------
+\bibliographystyle{unsrt}
+
+
+{\small
+
+\bibliography{main}
+\textit{This section does not count towards the page limit.References should include embedded DOI links.}
+
+}
+
+\end{document}

@@ -1,0 +1,29 @@
+DISS: The Dissertation
+The project is only assessed on the basis of a final written dissertation. Additional material, such as the code you submit, may be taken into account in case of doubt, but you should make sure that all the work you have done is carefully described in the dissertation document. All 60-credit MSc dissertations must conform to the following format: (The following limits on the length do not apply to EPCC, Masters Dissertation (Design Informatics), and CDT thesis.)
+
+The strict upper bound on the length is 40 pages for normal 60-credit MSc dissertations, excluding front matter (title, abstract, declaration) and bibliography. Theses should not be shorter than 20 pages. Where appropriate, the dissertation may additionally contain appendices in which relevant program listings, experimental data, circuit diagrams, formal proofs, etc. may be included. However, students should keep in mind that they are marked on the quality of the dissertation, not its length. The referees are not required to read any appendices.
+The dissertation must be word-processed using LaTeX and must use the School of Informatics infthesis.cls style file according to the skeleton template provided. Any style changes to this LaTeX template (e.g., font size, page size, margins, or anything else) are strictly prohibited. Additional points about building the thesis using LaTeX:
+The required infthesis.cls style file is installed on all DICE machines. If you run LaTeX on your personal computer you will need to install the following two files found on DICE: /usr/share/texmf/tex/latex/informatics/infthesis/infthesis.cls and /usr/share/texmf/tex/latex/common/logos/eushield.sty.
+Template files skeleton.tex, mybibfile.bib, skeleton.pdf can be downloaded here. The first two of these generate the skeleton thesis document with an example bibliography file, and illustrate correct use of the style. If you compile them yourself, you should get a document that looks like skeleton.pdf. Your dissertation must follow the example usage given in skeleton.tex.
+Additional documentation about LaTeX and LaTeX use within the School can be found here.
+On submission of their dissertation, students will be required to certify that their dissertation satsifies these requirements on the length and style.
+The typical structure of an Informatics MSc thesis is as follows:
+
+Title page with abstract.
+Introduction : an introduction to the document, clearly stating the hypothesis or objective of the project, motivation for the work and the results achieved. The structure of the remainder of the document should also be outlined.
+Background : background to the project, previous work, exposition of relevant literature, setting of the work in the proper context. This should contain sufficient information to allow the reader to appreciate the contribution you have made.
+Description of the work undertaken : this may be divided into chapters describing the conceptual design work and the actual implementation separately. Any problems or difficulties and the suggested solutions should be mentioned. Alternative solutions and their evaluation should also be included.
+Analysis or Evaluation : results and their critical analysis should be reported, whether the results conform to expectations or otherwise and how they compare with other related work. Where appropriate evaluation of the work against the original objectives should be presented.
+Conclusion : concluding remarks and observations, unsolved problems, suggestions for further work.
+Bibliography.
+In addition, the dissertation must be accompanied by an ethics statement and an own-work declaration, as in the provided template. Your IPP should have planned for the projects ethics requirements, and review the academic conduct section above.
+
+Writing a dissertation is time-consuming. Doing it well can take as long as four weeks of full-time work. You should write up explanations, results, and discussion as you go; this reduces the risk you will run out of time, and often clarifies and improves the research. Do not leave writing up until the last couple of weeks.
+
+Some guidelines on the style of an MSc thesis.
+
+Focus on your own work. If previous work is provides essential context, cite it and direct the reader to it. Never copy and paste material from elsewhere into your dissertation and edit it.
+Keep the sections on Introduction and Background brief. Mention only background and related work that is necessary to understand and evaluate your work. (E.g., definitions what are used later in your theorems/proofs, or data on the performance of other methods so that you can compare it to your results.)
+Apart from what is necessary (see item above), do not do a lengthy repetition/discussion of background and related work in your dissertation. You already received credit for planning and review in IPP. This material must not be repeated without correctly citing this prior work (see Academic Conduct section). Most students will not want to repeat material from their IPP, as they will have an improved and more focussed view of the subject matter by the time they write their final project.
+Write your dissertation in a brief and concise style. Do not waste words. Do not repeat youself. Say it once, but clearly.
+Pay attention to the bibliography. We recommend that you read the guidelines for bibliography entries - it's easy to get this right, and failure to do so is a sign of sloppiness that the reader may suspect extends to other aspects of your work.

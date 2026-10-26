@@ -1,0 +1,250 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{crothers2023machine}
+\citation{wu2025survey}
+\citation{kirchenbauer2023watermark}
+\citation{mitchell2023detectgpt}
+\citation{mitchell2023detectgpt}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:introduction}{{1}{1}{Introduction}{chapter.1}{}}
+\citation{mitchell2023detectgpt}
+\citation{bao2024fast}
+\citation{breneur2026notai}
+\citation{ma2024zero}
+\citation{liu2026zero}
+\citation{mireshghallah2023smaller}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}Motivation}{3}{section.1.1}\protected@file@percent }
+\newlabel{sec:motivation}{{1.1}{3}{Motivation}{section.1.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}Research Objective}{3}{section.1.2}\protected@file@percent }
+\newlabel{sec:research_objective}{{1.2}{3}{Research Objective}{section.1.2}{}}
+\citation{mireshghallah2023smaller}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}Contributions and Outcomes}{4}{section.1.3}\protected@file@percent }
+\newlabel{sec:contributions}{{1.3}{4}{Contributions and Outcomes}{section.1.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}Outline}{5}{section.1.4}\protected@file@percent }
+\newlabel{sec:outline}{{1.4}{5}{Outline}{section.1.4}{}}
+\citation{hochreiter1997long,vinyals2015neural}
+\citation{vaswani2017attention}
+\citation{radford2019language,zhang2022opt,black2021gpt}
+\citation{kaplan2020scaling,hoffmann2022training}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}Background and Related Work}{6}{chapter.2}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:background}{{2}{6}{Background and Related Work}{chapter.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}How Large Language Models Created the Detection Problem}{6}{section.2.1}\protected@file@percent }
+\newlabel{sec:llm_evolution}{{2.1}{6}{How Large Language Models Created the Detection Problem}{section.2.1}{}}
+\citation{gehrmann2019gltr}
+\citation{zellers2019defending}
+\citation{he2024mgtbench}
+\citation{crothers2023machine,wu2025survey}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}Detection Paradigms and Their Failure Modes}{7}{section.2.2}\protected@file@percent }
+\newlabel{sec:detection_landscape}{{2.2}{7}{Detection Paradigms and Their Failure Modes}{section.2.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}Supervised Classification and the Generalisation Failure}{7}{subsection.2.2.1}\protected@file@percent }
+\newlabel{sec:supervised}{{2.2.1}{7}{Supervised Classification and the Generalisation Failure}{subsection.2.2.1}{}}
+\citation{kirchenbauer2023watermark}
+\citation{dathathri2024scalable}
+\citation{kirchenbauer2023watermark}
+\citation{sadasivan2023can}
+\citation{mitchell2023detectgpt}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}Watermarking and the Coverage Failure}{8}{subsection.2.2.2}\protected@file@percent }
+\newlabel{sec:watermarking}{{2.2.2}{8}{Watermarking and the Coverage Failure}{subsection.2.2.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}Zero-Shot Detection and Probability Curvature}{8}{section.2.3}\protected@file@percent }
+\newlabel{sec:zero_shot}{{2.3}{8}{Zero-Shot Detection and Probability Curvature}{section.2.3}{}}
+\citation{raffel2020exploring}
+\citation{bao2024fast}
+\citation{hans2024spotting}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Probability curvature in the log probability landscape. Left: machine-generated text occupies a region of negative curvature, where most perturbations lower the log probability on average. Right: human-written text sits on flatter ground, where perturbations move the log probability up or down with no consistent direction. Adapted from Mitchell et al. (2023).}}{9}{figure.caption.2}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:curvature_concept}{{2.1}{9}{Probability curvature in the log probability landscape. Left: machine-generated text occupies a region of negative curvature, where most perturbations lower the log probability on average. Right: human-written text sits on flatter ground, where perturbations move the log probability up or down with no consistent direction. Adapted from Mitchell et al. (2023)}{figure.caption.2}{}}
+\citation{biderman2023pythia}
+\citation{allal2024smollm}
+\citation{radford2019language,sanh2019distilbert}
+\citation{mireshghallah2023smaller}
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}Small Language Models as Edge Detectors}{10}{section.2.4}\protected@file@percent }
+\newlabel{sec:slm}{{2.4}{10}{Small Language Models as Edge Detectors}{section.2.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.5}Chapter Summary}{10}{section.2.5}\protected@file@percent }
+\newlabel{sec:background_summary}{{2.5}{10}{Chapter Summary}{section.2.5}{}}
+\citation{fan2018hierarchical}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Methodology}{11}{chapter.3}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:methodology}{{3}{11}{Methodology}{chapter.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces The unified curvature-based detection pipeline. Human (WritingPrompts) and machine texts from a generator $\phi $ form a balanced 500-document pool. A sampled document $x$ is masked (30\% of tokens in two-token spans) and refilled via a chosen strategy (dashed arrow) to yield 50 perturbed neighbours $x_i$. Detector $\theta $ scores $x$ and $x_i$, and the curvature $z(x) = \log p_\theta (x) - \overline  {\log p_\theta (x_i)}$ is thresholded into a decision. Each experiment varies one component while holding the rest fixed.}}{11}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:pipeline}{{3.1}{11}{The unified curvature-based detection pipeline. Human (WritingPrompts) and machine texts from a generator $\phi $ form a balanced 500-document pool. A sampled document $x$ is masked (30\% of tokens in two-token spans) and refilled via a chosen strategy (dashed arrow) to yield 50 perturbed neighbours $x_i$. Detector $\theta $ scores $x$ and $x_i$, and the curvature $z(x) = \log p_\theta (x) - \overline {\log p_\theta (x_i)}$ is thresholded into a decision. Each experiment varies one component while holding the rest fixed}{figure.caption.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Dataset Configuration}{12}{section.3.1}\protected@file@percent }
+\newlabel{sec:dataset}{{3.1}{12}{Dataset Configuration}{section.3.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Evaluation Metrics}{12}{section.3.2}\protected@file@percent }
+\newlabel{sec:metrics}{{3.2}{12}{Evaluation Metrics}{section.3.2}{}}
+\citation{mitchell2023detectgpt}
+\citation{li2018visualizing}
+\citation{mitchell2023detectgpt}
+\citation{raffel2020exploring}
+\citation{miller1995wordnet}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Curvature Formulation}{13}{section.3.3}\protected@file@percent }
+\newlabel{sec:curvature_formulation}{{3.3}{13}{Curvature Formulation}{section.3.3}{}}
+\newlabel{eq:curvature}{{3.1}{13}{Curvature Formulation}{equation.3.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Perturbation Strategies}{14}{section.3.4}\protected@file@percent }
+\newlabel{sec:perturbations}{{3.4}{14}{Perturbation Strategies}{section.3.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Worked example of the four perturbation strategies applied to a single WritingPrompts document. The strategies range from fully semantic (T5) to pure token noise, illustrating the spectrum of disruption isolated in Experiment 4.}}{14}{table.caption.4}\protected@file@percent }
+\newlabel{tab:perturbation_example}{{3.1}{14}{Worked example of the four perturbation strategies applied to a single WritingPrompts document. The strategies range from fully semantic (T5) to pure token noise, illustrating the spectrum of disruption isolated in Experiment 4}{table.caption.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}Experimental Design and Setups}{14}{section.3.5}\protected@file@percent }
+\newlabel{sec:experimental_design}{{3.5}{14}{Experimental Design and Setups}{section.3.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces The four-experiment design. Each experiment varies one component of the shared pipeline in Figure \ref {fig:pipeline} while holding the remainder fixed.}}{15}{table.caption.5}\protected@file@percent }
+\newlabel{tab:design}{{3.2}{15}{The four-experiment design. Each experiment varies one component of the shared pipeline in Figure \ref {fig:pipeline} while holding the remainder fixed}{table.caption.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.6}Chapter Summary}{15}{section.3.6}\protected@file@percent }
+\newlabel{sec:methodology_summary}{{3.6}{15}{Chapter Summary}{section.3.6}{}}
+\citation{radford2019language}
+\citation{zhang2022opt}
+\citation{black2021gpt}
+\citation{allal2024smollm}
+\citation{radford2019language,sanh2019distilbert}
+\citation{biderman2023pythia}
+\citation{raffel2020exploring}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Experiment 1: Cross-Detection and Model Scale}{16}{chapter.4}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:exp1}{{4}{16}{Experiment 1: Cross-Detection and Model Scale}{chapter.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Experimental Setup}{16}{section.4.1}\protected@file@percent }
+\newlabel{sec:exp1_setup}{{4.1}{16}{Experimental Setup}{section.4.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Quantitative Results}{17}{section.4.2}\protected@file@percent }
+\newlabel{sec:exp1_results}{{4.2}{17}{Quantitative Results}{section.4.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces AUROC scores for distinguishing human text from various generator models. Rows represent generative models and columns represent detector models, both sorted from largest to smallest parameter count, and lighter cells indicate higher performance. Detection efficacy is inversely related to detector size: the smallest detectors (right) exceed 0.90 against most generators whilst the largest (left) fall to or below chance.}}{17}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:exp1_auroc}{{4.1}{17}{AUROC scores for distinguishing human text from various generator models. Rows represent generative models and columns represent detector models, both sorted from largest to smallest parameter count, and lighter cells indicate higher performance. Detection efficacy is inversely related to detector size: the smallest detectors (right) exceed 0.90 against most generators whilst the largest (left) fall to or below chance}{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces PR-AUC scores for distinguishing human text from various generator models, with the same layout as Figure \ref {fig:exp1_auroc}. The gradient is identical, confirming that smaller detectors maintain high precision and recall whilst the largest detectors collapse.}}{18}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:exp1_prauc}{{4.2}{18}{PR-AUC scores for distinguishing human text from various generator models, with the same layout as Figure \ref {fig:exp1_auroc}. The gradient is identical, confirming that smaller detectors maintain high precision and recall whilst the largest detectors collapse}{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Mean detection performance as a function of detector parameter count, averaged across the 13 generators. Both AUROC and PR-AUC decline monotonically as detector size increases and fall to or below the chance level (dashed line) at 1.7 billion parameters, confirming that the inverse relationship is an aggregate property of the matrix.}}{19}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:exp1_scale_trend}{{4.3}{19}{Mean detection performance as a function of detector parameter count, averaged across the 13 generators. Both AUROC and PR-AUC decline monotonically as detector size increases and fall to or below the chance level (dashed line) at 1.7 billion parameters, confirming that the inverse relationship is an aggregate property of the matrix}{figure.caption.8}{}}
+\citation{guo2017calibration,kadavath2022language}
+\citation{belkin2019reconciling}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Within-family and cross-family mean AUROC (left) and PR-AUC (right) by detector scale. Within-family performance exceeds cross-family performance at every scale for both metrics, but all four curves decline monotonically and collapse together at 1.7 billion parameters, showing that the inverse relationship is not driven by self-detection. Pythia detectors appear only in the cross-family curves because Pythia models were not used as generators.}}{20}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:exp1_family_split}{{4.4}{20}{Within-family and cross-family mean AUROC (left) and PR-AUC (right) by detector scale. Within-family performance exceeds cross-family performance at every scale for both metrics, but all four curves decline monotonically and collapse together at 1.7 billion parameters, showing that the inverse relationship is not driven by self-detection. Pythia detectors appear only in the cross-family curves because Pythia models were not used as generators}{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Mechanistic and Distributional Analysis}{20}{section.4.3}\protected@file@percent }
+\newlabel{sec:exp1_analysis}{{4.3}{20}{Mechanistic and Distributional Analysis}{section.4.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Discussion and Summary}{21}{section.4.4}\protected@file@percent }
+\newlabel{sec:exp1_summary}{{4.4}{21}{Discussion and Summary}{section.4.4}{}}
+\citation{biderman2023pythia}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Experiment 2: Training Checkpoint Dynamics}{22}{chapter.5}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:exp2}{{5}{22}{Experiment 2: Training Checkpoint Dynamics}{chapter.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Experimental Setup}{22}{section.5.1}\protected@file@percent }
+\newlabel{sec:exp2_setup}{{5.1}{22}{Experimental Setup}{section.5.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Quantitative Results}{23}{section.5.2}\protected@file@percent }
+\newlabel{sec:exp2_results}{{5.2}{23}{Quantitative Results}{section.5.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces AUROC scores across detector training steps for various generator models. Rows represent generative models and columns represent detector checkpoints, sorted by model size and training progression, and lighter cells indicate higher performance. Detection efficacy is inversely related to training duration: early checkpoints exceed 0.90 against most generators whilst fully converged checkpoints fall to or below chance, most severely for Pythia-1.4B.}}{23}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:exp2_auroc}{{5.1}{23}{AUROC scores across detector training steps for various generator models. Rows represent generative models and columns represent detector checkpoints, sorted by model size and training progression, and lighter cells indicate higher performance. Detection efficacy is inversely related to training duration: early checkpoints exceed 0.90 against most generators whilst fully converged checkpoints fall to or below chance, most severely for Pythia-1.4B}{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces PR-AUC scores across detector training steps for various generator models, with the same layout as Figure \ref {fig:exp2_auroc}. The gradient is identical and more severe, confirming that full convergence collapses precision and recall, especially for the largest detector.}}{24}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:exp2_prauc}{{5.2}{24}{PR-AUC scores across detector training steps for various generator models, with the same layout as Figure \ref {fig:exp2_auroc}. The gradient is identical and more severe, confirming that full convergence collapses precision and recall, especially for the largest detector}{figure.caption.11}{}}
+\citation{nakkiran2021deep}
+\citation{keskar2016large}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Mean detection performance as a function of detector training step, averaged across the 13 generators. All three scales start near 0.94 at 1k steps, but the degradation grows with parameter count: by 143k steps Pythia-1.4B falls to about 0.55 (near the dashed chance line), Pythia-410M to about 0.77, and Pythia-70M only to about 0.92, showing that overfitting, not scale alone, drives the decline.}}{25}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:exp2_checkpoint_trend}{{5.3}{25}{Mean detection performance as a function of detector training step, averaged across the 13 generators. All three scales start near 0.94 at 1k steps, but the degradation grows with parameter count: by 143k steps Pythia-1.4B falls to about 0.55 (near the dashed chance line), Pythia-410M to about 0.77, and Pythia-70M only to about 0.92, showing that overfitting, not scale alone, drives the decline}{figure.caption.12}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Mechanistic and Distributional Analysis}{25}{section.5.3}\protected@file@percent }
+\newlabel{sec:exp2_analysis}{{5.3}{25}{Mechanistic and Distributional Analysis}{section.5.3}{}}
+\citation{prechelt2002early}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Discussion and Summary}{26}{section.5.4}\protected@file@percent }
+\newlabel{sec:exp2_summary}{{5.4}{26}{Discussion and Summary}{section.5.4}{}}
+\citation{allal2024smollm}
+\citation{biderman2023pythia}
+\citation{mitchell2023detectgpt}
+\citation{raffel2020exploring}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Experiment 3: Semantic Perturbation Scale}{27}{chapter.6}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:exp3}{{6}{27}{Experiment 3: Semantic Perturbation Scale}{chapter.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Experimental Setup}{27}{section.6.1}\protected@file@percent }
+\newlabel{sec:exp3_setup}{{6.1}{27}{Experimental Setup}{section.6.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Quantitative Results}{28}{section.6.2}\protected@file@percent }
+\newlabel{sec:exp3_results}{{6.2}{28}{Quantitative Results}{section.6.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces Detection performance of the three Pythia detectors under the three T5 mask-filling models. Left: AUROC. Right: PR-AUC. Performance rises monotonically with filler capacity for every detector, but the gain from T5-large to T5-3B is small, and T5-small collapses the large detectors to near the dashed chance line.}}{28}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:exp3_bars}{{6.1}{28}{Detection performance of the three Pythia detectors under the three T5 mask-filling models. Left: AUROC. Right: PR-AUC. Performance rises monotonically with filler capacity for every detector, but the gain from T5-large to T5-3B is small, and T5-small collapses the large detectors to near the dashed chance line}{figure.caption.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces ROC curves (top row) and PR curves (bottom row) for each Pythia detector under the three T5 mask-filling models. The T5-small curves for the large detectors track the chance diagonal, whilst T5-3B sustains high precision across recall, showing that filler capacity governs whether the curvature signal survives.}}{29}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:exp3_curves}{{6.2}{29}{ROC curves (top row) and PR curves (bottom row) for each Pythia detector under the three T5 mask-filling models. The T5-small curves for the large detectors track the chance diagonal, whilst T5-3B sustains high precision across recall, showing that filler capacity governs whether the curvature signal survives}{figure.caption.14}{}}
+\citation{kaplan2020scaling,hoffmann2022training}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces AUROC (left) and PR-AUC (right) as a function of mask-filling model parameter count for each Pythia detector. All curves rise steeply then flatten, making the diminishing returns explicit, and the detector gap narrows as capacity grows, showing that a faithful perturbation removes most of the detector-scale penalty.}}{30}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:exp3_scale_trend}{{6.3}{30}{AUROC (left) and PR-AUC (right) as a function of mask-filling model parameter count for each Pythia detector. All curves rise steeply then flatten, making the diminishing returns explicit, and the detector gap narrows as capacity grows, showing that a faithful perturbation removes most of the detector-scale penalty}{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Mechanistic and Distributional Analysis}{30}{section.6.3}\protected@file@percent }
+\newlabel{sec:exp3_analysis}{{6.3}{30}{Mechanistic and Distributional Analysis}{section.6.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.4}Discussion and Summary}{31}{section.6.4}\protected@file@percent }
+\newlabel{sec:exp3_summary}{{6.4}{31}{Discussion and Summary}{section.6.4}{}}
+\citation{allal2024smollm}
+\citation{miller1995wordnet}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Experiment 4: Linguistic Perturbation Strategies}{32}{chapter.7}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:exp4}{{7}{32}{Experiment 4: Linguistic Perturbation Strategies}{chapter.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}Experimental Setup}{32}{section.7.1}\protected@file@percent }
+\newlabel{sec:exp4_setup}{{7.1}{32}{Experimental Setup}{section.7.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}Quantitative Results}{33}{section.7.2}\protected@file@percent }
+\newlabel{sec:exp4_results}{{7.2}{33}{Quantitative Results}{section.7.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces AUROC and PR-AUC for each perturbation strategy across the three Pythia detectors, with the generator fixed to SmolLM2-1.7B. Synonym substitution collapses every detector towards the dashed chance line, whilst random words and random tokens recover or exceed the semantic control, showing that statistical disruption suffices.}}{33}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:exp4_bars}{{7.1}{33}{AUROC and PR-AUC for each perturbation strategy across the three Pythia detectors, with the generator fixed to SmolLM2-1.7B. Synonym substitution collapses every detector towards the dashed chance line, whilst random words and random tokens recover or exceed the semantic control, showing that statistical disruption suffices}{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces Progression of AUROC and PR-AUC across the four perturbation strategies for each Pythia detector, ordered from full semantic coherence to pure token noise. All three detectors trace the same V-shape, with the dip at synonyms and the recovery under statistical perturbations.}}{34}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:exp4_lines}{{7.2}{34}{Progression of AUROC and PR-AUC across the four perturbation strategies for each Pythia detector, ordered from full semantic coherence to pure token noise. All three detectors trace the same V-shape, with the dip at synonyms and the recovery under statistical perturbations}{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces ROC curves (top row) and PR curves (bottom row) for each Pythia detector under the four perturbation strategies. The synonym curves track the chance diagonal whilst the statistical strategies match or exceed the semantic control, confirming that the curvature signal survives without semantic coherence.}}{34}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:exp4_curves}{{7.3}{34}{ROC curves (top row) and PR curves (bottom row) for each Pythia detector under the four perturbation strategies. The synonym curves track the chance diagonal whilst the statistical strategies match or exceed the semantic control, confirming that the curvature signal survives without semantic coherence}{figure.caption.18}{}}
+\citation{sadasivan2023can}
+\citation{uchendu2021turingbench}
+\citation{bao2024fast}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces Mean AUROC (left) and PR-AUC (right) by perturbation strategy, averaged across the three Pythia detectors, with the shaded band showing the min-to-max spread over detectors. Performance drops sharply under synonym substitution and recovers to or above the semantic control under statistically driven perturbations, showing that semantic coherence is not required for an effective curvature signal.}}{35}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:exp4_trend}{{7.4}{35}{Mean AUROC (left) and PR-AUC (right) by perturbation strategy, averaged across the three Pythia detectors, with the shaded band showing the min-to-max spread over detectors. Performance drops sharply under synonym substitution and recovers to or above the semantic control under statistically driven perturbations, showing that semantic coherence is not required for an effective curvature signal}{figure.caption.19}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}Mechanistic and Distributional Analysis}{36}{section.7.3}\protected@file@percent }
+\newlabel{sec:exp4_analysis}{{7.3}{36}{Mechanistic and Distributional Analysis}{section.7.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.4}Discussion and Summary}{37}{section.7.4}\protected@file@percent }
+\newlabel{sec:exp4_summary}{{7.4}{37}{Discussion and Summary}{section.7.4}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}Conclusion}{38}{chapter.8}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:conclusion}{{8}{38}{Conclusion}{chapter.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.1}Synthesis of Findings}{38}{section.8.1}\protected@file@percent }
+\newlabel{sec:synthesis}{{8.1}{38}{Synthesis of Findings}{section.8.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.2}A Viable Edge Configuration}{39}{section.8.2}\protected@file@percent }
+\newlabel{sec:edge_config}{{8.2}{39}{A Viable Edge Configuration}{section.8.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.3}Limitations}{39}{section.8.3}\protected@file@percent }
+\newlabel{sec:limitations}{{8.3}{39}{Limitations}{section.8.3}{}}
+\bibstyle{apa}
+\bibdata{mybibfile}
+\@writefile{toc}{\contentsline {section}{\numberline {8.4}Future Work}{40}{section.8.4}\protected@file@percent }
+\newlabel{sec:future_work}{{8.4}{40}{Future Work}{section.8.4}{}}
+\bibcite{allal2024smollm}{{1}{2024}{{Allal et~al.}}{{}}}
+\bibcite{bao2024fast}{{2}{2024}{{Bao et~al.}}{{}}}
+\bibcite{belkin2019reconciling}{{3}{2019}{{Belkin et~al.}}{{}}}
+\bibcite{biderman2023pythia}{{4}{2023}{{Biderman et~al.}}{{}}}
+\bibcite{black2021gpt}{{5}{2021}{{Black et~al.}}{{}}}
+\bibcite{breneur2026notai}{{6}{2026}{{Breneur et~al.}}{{}}}
+\bibcite{crothers2023machine}{{7}{2023}{{Crothers et~al.}}{{}}}
+\bibcite{dathathri2024scalable}{{8}{2024}{{Dathathri et~al.}}{{}}}
+\bibcite{fan2018hierarchical}{{9}{2018}{{Fan et~al.}}{{}}}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{41}{chapter*.20}\protected@file@percent }
+\bibcite{gehrmann2019gltr}{{10}{2019}{{Gehrmann et~al.}}{{}}}
+\bibcite{guo2017calibration}{{11}{2017}{{Guo et~al.}}{{}}}
+\bibcite{hans2024spotting}{{12}{2024}{{Hans et~al.}}{{}}}
+\bibcite{he2024mgtbench}{{13}{2024}{{He et~al.}}{{}}}
+\bibcite{hochreiter1997long}{{14}{1997}{{Hochreiter and Schmidhuber}}{{}}}
+\bibcite{hoffmann2022training}{{15}{2022}{{Hoffmann et~al.}}{{}}}
+\bibcite{kadavath2022language}{{16}{2022}{{Kadavath et~al.}}{{}}}
+\bibcite{kaplan2020scaling}{{17}{2020}{{Kaplan et~al.}}{{}}}
+\bibcite{keskar2016large}{{18}{2016}{{Keskar et~al.}}{{}}}
+\bibcite{kirchenbauer2023watermark}{{19}{2023}{{Kirchenbauer et~al.}}{{}}}
+\bibcite{li2018visualizing}{{20}{2018}{{Li et~al.}}{{}}}
+\bibcite{liu2026zero}{{21}{2026}{{Liu et~al.}}{{}}}
+\bibcite{ma2024zero}{{22}{2024}{{Ma and Wang}}{{}}}
+\bibcite{miller1995wordnet}{{23}{1995}{{Miller}}{{}}}
+\bibcite{mireshghallah2023smaller}{{24}{2023}{{Mireshghallah et~al.}}{{}}}
+\bibcite{mitchell2023detectgpt}{{25}{2023}{{Mitchell et~al.}}{{}}}
+\bibcite{nakkiran2021deep}{{26}{2021}{{Nakkiran et~al.}}{{}}}
+\bibcite{prechelt2002early}{{27}{2002}{{Prechelt}}{{}}}
+\bibcite{radford2019language}{{28}{2019}{{Radford et~al.}}{{}}}
+\bibcite{raffel2020exploring}{{29}{2020}{{Raffel et~al.}}{{}}}
+\bibcite{sadasivan2023can}{{30}{2023}{{Sadasivan et~al.}}{{}}}
+\bibcite{sanh2019distilbert}{{31}{2019}{{Sanh et~al.}}{{}}}
+\bibcite{uchendu2021turingbench}{{32}{2021}{{Uchendu et~al.}}{{}}}
+\bibcite{vaswani2017attention}{{33}{2017}{{Vaswani et~al.}}{{}}}
+\bibcite{vinyals2015neural}{{34}{2015}{{Vinyals and Le}}{{}}}
+\bibcite{wu2025survey}{{35}{2025}{{Wu et~al.}}{{}}}
+\bibcite{zellers2019defending}{{36}{2019}{{Zellers et~al.}}{{}}}
+\bibcite{zhang2022opt}{{37}{2022}{{Zhang et~al.}}{{}}}
+\gdef \@abspage@last{50}

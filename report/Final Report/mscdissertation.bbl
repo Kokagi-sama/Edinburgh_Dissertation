@@ -1,0 +1,237 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\astroncite{Allal et~al.}{2024}]{allal2024smollm}
+Allal, L.~B., Lozhkov, A., Bakouch, E., von Werra, L., and Wolf, T. (2024).
+\newblock Smollm-blazingly fast and remarkably powerful.
+\newblock {\em Hugging Face Blog}, 16.
+
+\bibitem[\protect\astroncite{Bao et~al.}{2024}]{bao2024fast}
+Bao, G., Zhao, Y., Teng, Z., Yang, L., and Zhang, Y. (2024).
+\newblock Fast-detectgpt: Efficient zero-shot detection of machine-generated
+  text via conditional probability curvature.
+\newblock In {\em International Conference on Learning Representations}, volume
+  2024, pages 24814--24836.
+
+\bibitem[\protect\astroncite{Belkin et~al.}{2019}]{belkin2019reconciling}
+Belkin, M., Hsu, D., Ma, S., and Mandal, S. (2019).
+\newblock Reconciling modern machine-learning practice and the classical
+  bias--variance trade-off.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  116(32):15849--15854.
+
+\bibitem[\protect\astroncite{Biderman et~al.}{2023}]{biderman2023pythia}
+Biderman, S., Schoelkopf, H., Anthony, Q.~G., Bradley, H., O’Brien, K.,
+  Hallahan, E., Khan, M.~A., Purohit, S., Prashanth, U.~S., Raff, E., et~al.
+  (2023).
+\newblock Pythia: A suite for analyzing large language models across training
+  and scaling.
+\newblock In {\em International conference on machine learning}, pages
+  2397--2430. PMLR.
+
+\bibitem[\protect\astroncite{Black et~al.}{2021}]{black2021gpt}
+Black, S., Leo, G., Wang, P., Leahy, C., and Biderman, S. (2021).
+\newblock Gpt-neo: Large scale autoregressive language modeling with
+  mesh-tensorflow.
+\newblock {\em Zenodo}.
+
+\bibitem[\protect\astroncite{Breneur et~al.}{2026}]{breneur2026notai}
+Breneur, O.~M., Danilov, A., Nourbakhsh, A., and Lamsiyah, S. (2026).
+\newblock Notai. ai: Explainable detection of machine-generated text via
+  curvature and feature attribution.
+\newblock {\em arXiv preprint arXiv:2603.05617}.
+
+\bibitem[\protect\astroncite{Crothers et~al.}{2023}]{crothers2023machine}
+Crothers, E.~N., Japkowicz, N., and Viktor, H.~L. (2023).
+\newblock Machine-generated text: A comprehensive survey of threat models and
+  detection methods.
+\newblock {\em IEEE Access}, 11:70977--71002.
+
+\bibitem[\protect\astroncite{Dathathri et~al.}{2024}]{dathathri2024scalable}
+Dathathri, S., See, A., Ghaisas, S., Huang, P.-S., McAdam, R., Welbl, J.,
+  Bachani, V., Kaskasoli, A., Stanforth, R., Matejovicova, T., et~al. (2024).
+\newblock Scalable watermarking for identifying large language model outputs.
+\newblock {\em Nature}, 634(8035):818--823.
+
+\bibitem[\protect\astroncite{Fan et~al.}{2018}]{fan2018hierarchical}
+Fan, A., Lewis, M., and Dauphin, Y. (2018).
+\newblock Hierarchical neural story generation.
+\newblock In {\em Proceedings of the 56th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)}, pages 889--898.
+
+\bibitem[\protect\astroncite{Gehrmann et~al.}{2019}]{gehrmann2019gltr}
+Gehrmann, S., Strobelt, H., and Rush, A.~M. (2019).
+\newblock Gltr: Statistical detection and visualization of generated text.
+\newblock In {\em Proceedings of the 57th annual meeting of the association for
+  computational linguistics: system demonstrations}, pages 111--116.
+
+\bibitem[\protect\astroncite{Guo et~al.}{2017}]{guo2017calibration}
+Guo, C., Pleiss, G., Sun, Y., and Weinberger, K.~Q. (2017).
+\newblock On calibration of modern neural networks.
+\newblock In {\em International conference on machine learning}, pages
+  1321--1330. PMLR.
+
+\bibitem[\protect\astroncite{Hans et~al.}{2024}]{hans2024spotting}
+Hans, A., Schwarzschild, A., Cherepanova, V., Kazemi, H., Saha, A., Goldblum,
+  M., Geiping, J., and Goldstein, T. (2024).
+\newblock Spotting llms with binoculars: Zero-shot detection of
+  machine-generated text.
+\newblock {\em arXiv preprint arXiv:2401.12070}.
+
+\bibitem[\protect\astroncite{He et~al.}{2024}]{he2024mgtbench}
+He, X., Shen, X., Chen, Z., Backes, M., and Zhang, Y. (2024).
+\newblock Mgtbench: Benchmarking machine-generated text detection.
+\newblock In {\em Proceedings of the 2024 on ACM SIGSAC Conference on Computer
+  and Communications Security}, pages 2251--2265.
+
+\bibitem[\protect\astroncite{Hochreiter and
+  Schmidhuber}{1997}]{hochreiter1997long}
+Hochreiter, S. and Schmidhuber, J. (1997).
+\newblock Long short-term memory.
+\newblock {\em Neural computation}, 9(8):1735--1780.
+
+\bibitem[\protect\astroncite{Hoffmann et~al.}{2022}]{hoffmann2022training}
+Hoffmann, J., Borgeaud, S., Mensch, A., Buchatskaya, E., Cai, T., Rutherford,
+  E., Casas, D., Hendricks, L.~A., Welbl, J., Clark, A., et~al. (2022).
+\newblock Training compute-optimal large language models.
+\newblock {\em arXiv preprint arXiv:2203.15556}, 10.
+
+\bibitem[\protect\astroncite{Kadavath et~al.}{2022}]{kadavath2022language}
+Kadavath, S., Conerly, T., Askell, A., Henighan, T., Drain, D., Perez, E.,
+  Schiefer, N., Hatfield-Dodds, Z., DasSarma, N., Tran-Johnson, E., et~al.
+  (2022).
+\newblock Language models (mostly) know what they know.
+\newblock {\em arXiv preprint arXiv:2207.05221}.
+
+\bibitem[\protect\astroncite{Kaplan et~al.}{2020}]{kaplan2020scaling}
+Kaplan, J., McCandlish, S., Henighan, T., Brown, T.~B., Chess, B., Child, R.,
+  Gray, S., Radford, A., Wu, J., and Amodei, D. (2020).
+\newblock Scaling laws for neural language models.
+\newblock {\em arXiv preprint arXiv:2001.08361}.
+
+\bibitem[\protect\astroncite{Keskar et~al.}{2016}]{keskar2016large}
+Keskar, N.~S., Mudigere, D., Nocedal, J., Smelyanskiy, M., and Tang, P. T.~P.
+  (2016).
+\newblock On large-batch training for deep learning: Generalization gap and
+  sharp minima.
+\newblock {\em arXiv preprint arXiv:1609.04836}.
+
+\bibitem[\protect\astroncite{Kirchenbauer
+  et~al.}{2023}]{kirchenbauer2023watermark}
+Kirchenbauer, J., Geiping, J., Wen, Y., Katz, J., Miers, I., and Goldstein, T.
+  (2023).
+\newblock A watermark for large language models.
+\newblock In {\em International conference on machine learning}, pages
+  17061--17084. PMLR.
+
+\bibitem[\protect\astroncite{Li et~al.}{2018}]{li2018visualizing}
+Li, H., Xu, Z., Taylor, G., Studer, C., and Goldstein, T. (2018).
+\newblock Visualizing the loss landscape of neural nets.
+\newblock {\em Advances in neural information processing systems}, 31.
+
+\bibitem[\protect\astroncite{Liu et~al.}{2026}]{liu2026zero}
+Liu, R., Huang, H., Xiao, X., and Wu, Z. (2026).
+\newblock Zero-shot detection of llm-generated text via implicit reward model.
+\newblock {\em Advances in Neural Information Processing Systems},
+  38:167683--167709.
+
+\bibitem[\protect\astroncite{Ma and Wang}{2024}]{ma2024zero}
+Ma, S. and Wang, Q. (2024).
+\newblock Zero-shot detection of llm-generated text using token cohesiveness.
+\newblock In {\em Proceedings of the 2024 Conference on Empirical Methods in
+  Natural Language Processing}, pages 17538--17553.
+
+\bibitem[\protect\astroncite{Miller}{1995}]{miller1995wordnet}
+Miller, G.~A. (1995).
+\newblock Wordnet: a lexical database for english.
+\newblock {\em Communications of the ACM}, 38(11):39--41.
+
+\bibitem[\protect\astroncite{Mireshghallah
+  et~al.}{2023}]{mireshghallah2023smaller}
+Mireshghallah, N., Mattern, J., Gao, S., Shokri, R., and Berg-Kirkpatrick, T.
+  (2023).
+\newblock Smaller language models are better black-box machine-generated text
+  detectors.
+\newblock {\em arXiv preprint arXiv:2305.09859}.
+
+\bibitem[\protect\astroncite{Mitchell et~al.}{2023}]{mitchell2023detectgpt}
+Mitchell, E., Lee, Y., Khazatsky, A., Manning, C.~D., and Finn, C. (2023).
+\newblock Detectgpt: Zero-shot machine-generated text detection using
+  probability curvature.
+\newblock In {\em International conference on machine learning}, pages
+  24950--24962. PMLR.
+
+\bibitem[\protect\astroncite{Nakkiran et~al.}{2021}]{nakkiran2021deep}
+Nakkiran, P., Kaplun, G., Bansal, Y., Yang, T., Barak, B., and Sutskever, I.
+  (2021).
+\newblock Deep double descent: Where bigger models and more data hurt.
+\newblock {\em Journal of Statistical Mechanics: Theory and Experiment},
+  2021(12):124003.
+
+\bibitem[\protect\astroncite{Prechelt}{2002}]{prechelt2002early}
+Prechelt, L. (2002).
+\newblock Early stopping-but when?
+\newblock In {\em Neural Networks: Tricks of the trade}, pages 55--69.
+  Springer.
+
+\bibitem[\protect\astroncite{Radford et~al.}{2019}]{radford2019language}
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., Sutskever, I., et~al.
+  (2019).
+\newblock Language models are unsupervised multitask learners.
+\newblock {\em OpenAI blog}, 1(8):9.
+
+\bibitem[\protect\astroncite{Raffel et~al.}{2020}]{raffel2020exploring}
+Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou,
+  Y., Li, W., and Liu, P.~J. (2020).
+\newblock Exploring the limits of transfer learning with a unified text-to-text
+  transformer.
+\newblock {\em Journal of machine learning research}, 21(140):1--67.
+
+\bibitem[\protect\astroncite{Sadasivan et~al.}{2023}]{sadasivan2023can}
+Sadasivan, V.~S., Kumar, A., Balasubramanian, S., Wang, W., and Feizi, S.
+  (2023).
+\newblock Can ai-generated text be reliably detected?
+\newblock {\em arXiv preprint arXiv:2303.11156}.
+
+\bibitem[\protect\astroncite{Sanh et~al.}{2019}]{sanh2019distilbert}
+Sanh, V., Debut, L., Chaumond, J., and Wolf, T. (2019).
+\newblock Distilbert, a distilled version of bert: smaller, faster, cheaper and
+  lighter.
+\newblock {\em arXiv preprint arXiv:1910.01108}.
+
+\bibitem[\protect\astroncite{Uchendu et~al.}{2021}]{uchendu2021turingbench}
+Uchendu, A., Ma, Z., Le, T., Zhang, R., and Lee, D. (2021).
+\newblock Turingbench: A benchmark environment for turing test in the age of
+  neural text generation.
+\newblock In {\em Findings of the association for computational linguistics:
+  EMNLP 2021}, pages 2001--2016.
+
+\bibitem[\protect\astroncite{Vaswani et~al.}{2017}]{vaswani2017attention}
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
+  Kaiser, {\L}., and Polosukhin, I. (2017).
+\newblock Attention is all you need.
+\newblock {\em Advances in neural information processing systems}, 30.
+
+\bibitem[\protect\astroncite{Vinyals and Le}{2015}]{vinyals2015neural}
+Vinyals, O. and Le, Q. (2015).
+\newblock A neural conversational model.
+\newblock {\em arXiv preprint arXiv:1506.05869}.
+
+\bibitem[\protect\astroncite{Wu et~al.}{2025}]{wu2025survey}
+Wu, J., Yang, S., Zhan, R., Yuan, Y., Chao, L.~S., and Wong, D.~F. (2025).
+\newblock A survey on llm-generated text detection: Necessity, methods, and
+  future directions.
+\newblock {\em Computational Linguistics}, 51(1):275--338.
+
+\bibitem[\protect\astroncite{Zellers et~al.}{2019}]{zellers2019defending}
+Zellers, R., Holtzman, A., Rashkin, H., Bisk, Y., Farhadi, A., Roesner, F., and
+  Choi, Y. (2019).
+\newblock Defending against neural fake news.
+\newblock {\em Advances in neural information processing systems}, 32.
+
+\bibitem[\protect\astroncite{Zhang et~al.}{2022}]{zhang2022opt}
+Zhang, S., Roller, S., Goyal, N., Artetxe, M., Chen, M., Chen, S., Dewan, C.,
+  Diab, M., Li, X., Lin, X.~V., et~al. (2022).
+\newblock Opt: Open pre-trained transformer language models.
+\newblock {\em arXiv preprint arXiv:2205.01068}.
+
+\end{thebibliography}

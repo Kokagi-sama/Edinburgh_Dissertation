@@ -1,0 +1,13 @@
+# pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu130   
+
+torch
+numpy
+transformers
+datasets
+matplotlib
+tqdm
+scikit-learn
+openai
+seaborn
+nltk
+
